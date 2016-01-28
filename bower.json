@@ -1,0 +1,13 @@
+{
+  "name": "azScroll",
+  "version": "0.0.1",
+  "homepage": "https://github.com/AzatKhalilov/azScroll",
+  "authors": [
+    "Azat Khalilov <zminexx@gmail.com>"
+  ],
+  "description": "Lightweight, cross-browser infinite scroll",
+  "license": "MIT",
+  "dependencies": {
+    "jquery": ">=1.8.0"
+  }
+}
