@@ -4,7 +4,7 @@
  * License: MIT
  * @projectDescription Lightweight, cross-browser infinite scroll
  * @author Azat Khalilov
- * @version 0.0.1
+ * @version 1.0.0
  */
 (function ($) {
 
