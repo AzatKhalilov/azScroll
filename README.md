@@ -41,6 +41,10 @@ Enable trigger event
 
 `$('selector').azScroll('enable')`
 
+Destroy azScroll's data and unsubscribe from scroll event
+
+`$('selector').azScroll('destroy')`
+
 
 #License
 azScroll is licensed under the MIT license. See the LICENSE file for more details.
