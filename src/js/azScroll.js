@@ -127,8 +127,15 @@
                 }
         }
     };
+    var methods={
+        destroy:'destroy',
+        enable:'enable',
+        disable:'disable'
+    };
+
 
     function Plugin(option) {
+
         return this.each(function () {
             var $this = $(this);
             var options = (typeof option == 'object') && option;
@@ -142,7 +149,7 @@
                     data.getOptions(options);
                 }
             }
-            if (typeof option == 'string') data[option]();
+            if (typeof option == 'string' && methods[option]) data[option]();
         });
 
     }
