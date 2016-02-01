@@ -21,6 +21,7 @@ azScroll method can takes an optional object that override default settings.
 })`
 
 **4.**   Event "reach.scroll" is triggered when the scroll reach the top or bottom
+
 `$('selector').on('reach.scroll',function(){
 })`
 
